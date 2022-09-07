@@ -1,0 +1,344 @@
+@media (max-width: 1024px) {
+
+
+    .logo {
+        width: 80px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+        width: auto;
+    }
+
+    header {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+
+    .loader_container {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        overflow: hidden;
+        z-index: -1;
+        display: none;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        opacity: 1;
+        position: relative;
+
+    }
+
+    .info_container {
+        width: 100%;
+        display: flex;
+        height: 400px;
+
+        flex-direction: column;
+    }
+
+    .info_title {
+        width: 100%;
+    }
+
+
+    .info_title p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #282A33;
+        margin-bottom: 50px;
+
+        animation: opac 2s ease 0.5s;
+    }
+
+    #percnkisud-matedngentag {
+        display: none;
+    }
+
+    #arrowTop {
+        position: fixed;
+        bottom: 50px;
+        right: 15px;
+        transform: translateX(-50%);
+        height: 50px;
+        width: 50px;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 100%;
+        font-size: 1em;
+        z-index: 1;
+        border: 2px solid #282A33;
+        transition: 1s;
+        background-color: #282A33;
+    }
+
+    #arrowTop:hover {
+        border: 2px solid #282A33;
+        color: #282A33;
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow: none;
+    }
+
+
+    .person_data {
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+
+
+    }
+
+    .summary img {
+        margin-top: 50px;
+        max-width: 100%;
+        animation: none;
+    }
+
+    .summary {
+        max-width: 100%;
+        width: auto;
+    }
+
+    .pe_container {
+        width: 100%;
+
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(200px);
+
+    }
+
+    .edu {
+        width: 100%;
+    }
+
+    .pe_container h1 {
+        display: none;
+    }
+
+    .exp {
+        margin-top: 200px;
+    }
+
+
+    .person_exp {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .pname {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+        margin-right: 0px;
+        color: #282A33;
+    }
+
+    .pwork {
+        display: none;
+    }
+
+    .pers_img {
+        position: static;
+        margin: 0 auto;
+        max-width: 100%;
+        margin-top: 100px;
+    }
+
+    .pers_img img {
+        max-width: 100%;
+    }
+
+
+    .vector_three {
+        display: none;
+    }
+
+    .summary_title {
+        z-index: -3;
+    }
+
+
+
+    .person_edu {
+        width: 130px;
+
+        margin: 0 auto;
+        margin-top: 32px;
+
+
+        animation: none;
+    }
+
+    .skill_flex {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: 30px;
+        column-gap: 20px;
+    }
+
+    .dnone {
+        display: block;
+        text-align: left;
+    }
+
+
+
+
+    .topnav {
+        background-color: #fff;
+        display: block;
+
+    }
+
+    .topnav img {
+        position: absolute;
+        width: 600px;
+        left: 50%;
+        margin-left: -300px;
+        top: 215px;
+    }
+
+    .topnav #myLinks {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        display: none;
+        background-color: #fff;
+    }
+
+    .topnav a {
+        color: #282A33;
+        text-decoration: none;
+        display: block;
+        position: relative;
+    }
+
+    .mmenu {
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .topnav a.icon {
+        width: 30px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 4;
+    }
+
+    .topnav a.icon:active {
+        background-color: #6A3BD6;
+        box-shadow: 0px 0px 5px 5px #6A3BD6;
+    }
+
+    .topnav a:hover {
+        color: #6A3BD6;
+    }
+
+    .active {
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        z-index: 3;
+    }
+
+    .active span {
+
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin-top: 5px;
+        z-index: 4;
+
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    @keyframes opac {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+}
+
+@media (max-width: 589px) {
+    .pe_container {
+        width: 100%;
+        max-height: 600px;
+        margin-top: 50px;
+
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 15px;
+        overflow: hidden;
+
+    }
+
+    .skill_container {
+        width: 100%;
+        margin-top: 64px;
+    }
+
+    .skill_flex {
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .skill_elem {
+        transition: 1s;
+        padding: 10px;
+        transform: scale(1);
+        margin-top: 30px;
+    }
+}
